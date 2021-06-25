@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="/scripts/mywork.js" defer></script>
+        <link rel="stylesheet" href="/styles/mylabweeks.css"> 
+        <title>Lab Weeks</title>
+    </head>
+</head>
+<body>
+        <nav>
+            <ul>
+                <li><a class="logo" href="#logo">HCI</a></li>
+                <li><a class="link" href="/index.html">🏠 Home</a></li>
+                <li><a class="link" href="/Pages/Work/Work.html">💻 Work</a></li>
+                <li style="float:right"><a class="active" href="/Pages/Labweeks/labweeks.html">Lab Weeks</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+           <!-- <img src="//images/Blue Blob.png" alt="A light blue blob as decorative background" id="blueblob">
+            <img src="//images/Pink Blobpng.png" alt="A light pink blob as decorative background" id="pinkblob">-->
+            <div class="Hero_Banner">
+                <a class="heading" href="=/Pages/Work/Work.html"><i class="arrow down"></i>Lab Weeks</a>
+
+                <div class="bodytext">
+                    
+                    <h2>Lab Weeks | AR & VR</h2>
+                     <p >For our HCI course we had two dedicated weeks to come-up with something in the realm of AR & VR. The idea was to create something “innovative”,
+                        creative and with the new skills we just acquired. There was also an emphasis on cross branching with various technologies forms.
+                        <br>
+                        <br>    
+                        <h2>Day 1</h2>
+                        Day 1 was an interesting day for me, I was not initially set on doing something in the AR & VR. So, my day started off with researching what 
+                        platforms we can use but before we could do that we needed to know if we doing AR or VR. We ultimately choose to with AR. With that setback 
+                        done i moved forward investigating into Unity, Unreal & Three.js.
+                        <br>
+                        <br>
+                        <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/5qFZ8ozwhsdsaNUsNm" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/brooklynninenine-season-6-nbc-brooklyn-nine-5qFZ8ozwhsdsaNUsNm">via GIPHY</a></p>
+                        <br>
+                        <br>
+                        Unreal - was to Graphically dependent and with only having integrated Graphics, I knew I would be spending more time waiting for my program 
+                        to Respond then actually tinkering. Three,js was an interesting platform it offered a wide range of possibilities, there was extensive examples 
+                        of AR/VR and what you could do with it. There was a problem though and that was that we would be dependent on code and our abilities in it. This 
+                        was a con for us so we looked into Unity. Unity provided a tool built in tools from Google with the AR Foundation. Another plus was that Unity 
+                        was not as graphically intense as Unreal allowing for us to have smoother workflow. 
+                        <br>
+                        <br>
+                        Once we understood our platform we looked further into what tools where available inside of Unity. We saw that there was a Vuforia engine that 
+                        could detect images and various objects and had the features that was missing in AR Foundation. But we decided to go with what unity provided 
+                        through their AR project template which was based on the XR-Plugin and AR Foundation.
+                        <br>
+                        <br>
+                        <h2>Day 2</h2>
+                        <br>
+                        Day 2 I started the day off with explaining our concept to the lectures. We saw that we had something to work with but needed to understand 
+                        how we can push it to another level. So, I looked further into how human emotions work and how they can be read. Looking into various Arduino sensor’s.  
+                        <br>
+                        <br>
+                        I found out that we could use ECG sensors with Arduino and connect it to unity. However the cost of ECG sensors was pricey and would not arrive 
+                        immediately. So I never explored that sector more.
+                        <br>
+                        <br>
+                        For the rest of the day it was all about Tinkering in Unity creating objects, understanding the plane detection system and importing assets. 
+                        We created a sphere that you could walk into to see a 3D world. This didn’t go so well
+                        <br>
+                        <br>
+                        <img src="/images/3D World.png" class="ar_img" width="98%">
+                        
+                        <br>
+                        <br>
+                        <h2>Day 3</h2>
+                        <br>
+                        I wanted to explore more on what was possible with unity. What levels of interaction can we accomplish. Therefore i created two new separate
+                        projects one to create virtual gesture control button’s and another to import API data into Unity.
+                        <br>
+                        
+                        <br>
+                        <br>
+                        <h2>Day 4</h2>
+                        <br>
+                        Day 4 was about collecting assets together to display the weather that came from the api. This weather was suppose to be real time so I needed 
+                        assets that would fit our vision. So I looked for a bunch of low-poly weather effects and tried to connect them with the api. Which caused us to take a step back not forwards.
+                       <br>
+                       <br>
+                       <h2>Day 5</h2>
+                        Day 5 started with finishing the api calling and then to merge everything we have together. So, I had a sphere ball, virtual buttons & api data call through restapi’s this 
+                        was all merged and nothing worked. We had overlapping scripts and not fully understanding Unity. Hindered me in isolating the issues. 
+                        <br>
+                        <br>
+                        <h2>Day 6</h2>
+                        I put a pause on merging everything together as we as a group did not have an actual foundation. Once i received all assets form my teammate, I set about building them into 
+                        Vuforia engine as AR Foundation was giving me seriously difficulty with the plane detection system. I also encountered problems with the focus with the Vuforia engine. I managed 
+                        to fix this by sourcing through the Vuforia forums.
+                        <br>
+                        <br>
+                        <img src="/images/code day2.png" class="ar_img" width="98%">
+                        <br>
+                        <br>
+                        <h2>Day 7</h2>
+                        We had our world set up. I then looked into how we can further deepen the interactive level on the world. I had a lot of issues where the placement of the world was 
+                        incorrect or just very skew. So, i implemented a plugin called lean touch to allow me to rescale, rotate and position to my liking.
+                        <br>
+                        <br>
+                        We also added a few very simple animations to the world rotating objects and move cars forward. 
+                        <br>
+                        <br>
+                        <img src="//images/early world combi.png" class="ar_img" width="98%">
+                        <br>
+                        <br>
+                        <h2>Day 8</h2>
+                        I continued with the detailing of the world trying different forms of the terrains and adding in more elements to make the environment more lively. I started to do the API
+                         calling again, but this time with a different approach. I used the help of a plugin. The ground that the town was resting on proved to be to time costly. So we decided to go with a plan green plane 
+                         <br>
+                         <br>
+                         <img src="/images/Detail.png" class="ar_img" width="98%">
+                         <br>
+                         <br>
+                         <h2>Day 9</h2>
+                         I started the day with fixing the Image detection and scaling all objects to fit onto mobile screen. Using a plugin to control the weather simulation to the api that was being called. I then took
+                        the code from my teammate who did the gaze interaction. Took a lot rescaling but I managed to finish the project from my side and film before the day of the expo.
+                         <br>
+                         <br>
+                         <img src="/images/3D World.png" class="ar_img" width="98%">
+                         <br>
+                         <br>
+                         <h2>Day 10</h2>
+                         Day 10 was the Expo, me and my group made presented our parts of the project. I was chair leader for one of the pre-expo groups and had to just make sure everything ran 
+                         smoothly and that all parties attended. After that I had to report which of the group projects would move forward to the expo and hand over the attendance report to Chris. 
+                         Later that day we had the final expo which had a lot of cool very interesting projects. A lot of them in a higher fidelity than I would have expected. The musical plants was 
+                         the outstanding project for me in the whole expo. 
+                         <br>
+                         <br>
+                         <video width="98%" controls>
+                            <source src="/images/Expo HCI.mp4" type="video/mp4" width="98%">
+                          Demo of Trip Town.
+                          </video>
+                          <br>
+                         <br>
+                         <h2>Final Project</h2>
+                        <br>
+                        Our Final project trip town is an imaginary town with various interactive elements. We would have hoped to do more and expand the world more. Because the way it stands at the moment 
+                        its very much a novelty. I play with it once or twice but then I am done with it.
+                        <br>
+                        <br>
+                        Our world has multiple 3D assets that have been put together to build a lifelike town. We also have various lighting elements involved. For example the fire reflects its lights point 
+                        of surrounding areas, to create the illusion of heat. The weather is controlled by a weather pack that has very environments inside of it. The api is called through an external plug-in
+                         called real-time weather. The clouds are downloaded from the Unity asset store but they are connected to the 
+                        weather. The cars are stationary but we did try and animate a two cars, the animations are not very smooth however more work would need to be put into these. We also added a gaze 
+                        interaction that cause information to popup on certain building. In our town the popup are located at the gas station’s indicating you the fuel prices. The gaze interaction is 3 part 
+                        setup, one script is used for the camera which notifies the system that the camera is looking at you and once it reaches your hit box you need to show yourself. The second part is the 
+                        actual transformation of the board coming up from the building.  The 3rd script is the script that tells the board to rotate in the direction the camera is facing. The last element of 
+                        our trip town is the ability to freely move the town in the xyz axis. On top of that you can scale and rotate respectively. 
+                        <br>
+                        <br>
+                       <h2>Reflection</h2>
+                        Overall our group managed to come up with something we are happy with. We got off to a rocky start not wanting to do AR&VR caused for us to not know where to begin. We took long to find 
+                        inspiration for what to do and we kept changing ideas. Yet despite the fact of not being able to agree on a final concept we kept tinkering understand our capabilities more and more. 
+                        Which brought us to where we are. The contraptions on both parties was amble, we did our own things but we did not stop finding out new methods new ways of interacting. We did not just 
+                        talk but actually built which was what allowed us to explore so many areas in the first place. I am also happy with how I contributed to the group. I feel like I did not stand still, i was 
+                        trying to solve problem and finds new technologies that we could integrate into our AR world. I learned lots of new skills, I feel very confident in using Unity for basic level builds. It 
+                        is also a platform I would like to further experiment with. Considering I was daunted by the fact that C# is the scripting language I have grown quite to like it. Not that I understand it 
+                        but I get a rough idea of what is happening and written in the scripts. I do believe there are some things I can improve on for the future which is my attitude to projects that do not speak 
+                        my interest. I should have seen the project as a challenge from the get go and not 4 days deep. I would have liked to use more of the skills learned in the other Lecture weeks and seen how 
+                        we could have integrated Arduino into our build. Overall I found the Lab weeks to be very intense. It was the perfect way for us to take all our learning and stuff them into one big melting pot. 
+                        A clearer direction would have been helpful but that is not the life of a designer is it.
+                         <br>
+                         <br>
+
+
+
+
+
+
+
+
+
+                        <img src="/images/empire 2.png" class="ar_img" width="98%">
+                    </p>
+
+                
+                <a href="/Pages/Sources/source.html">
+                    <button class="source">My Sources 🔍</button>
+                </a>
+        </section>
+</body>
+</html>
